@@ -1,0 +1,186 @@
+
+.recruit {
+  position: relative;
+  margin-bottom: 13rem;
+  margin-top: 7rem;
+}
+
+.recruit_top_img {
+  width: 74%;
+  height: 50rem;
+  margin: 0 auto;
+  padding-top: 21rem; 
+}
+
+.recruit_top_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+.recruit_section_title {
+  background-color: #fff;
+  font-size: 4rem;
+  text-align: center;
+  display: inline-block;
+  padding: 9.6rem 12rem;
+  position: absolute;
+  top: 10%;
+  right: 8%;
+}
+/* --recruit message------------ */
+.recruit_message {
+  margin-bottom: 7.4rem;
+}
+
+.recruit_txt p {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 6.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+/* .section_title {
+  margin-bottom: 8rem;
+} */
+
+.other_setting{
+  color: #fff;
+  
+}
+.recruit_message {
+  padding: 13rem;
+  background-color: #55c6ba;
+}
+
+/* --senior message--------------- */
+.senior_message_inner {
+  width: 76%;
+  margin: 0 auto;
+  padding: 7rem 0;
+  margin-bottom: 7rem;
+  border: 1px solid #55c6ba;
+}
+
+.senior_message_txt p {
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.senior_message {
+  margin-bottom: 13rem;
+}
+
+/* --senior_list------------------ */
+.senior_list {
+  background-color: rgba(217, 217, 217, 0.5);
+  padding: 8rem;
+}
+
+.senior_coment1,
+.senior_coment2  {
+  background-color: #fff;
+  width:76%;
+  font-size: 2.5rem;
+  margin: 0 auto;
+  padding: 12.5rem 3rem; 
+  display: flex;
+  justify-content: center;
+  /* margin-bottom: 8rem; */
+}
+
+.senior_coment1 {
+  margin-bottom: 8rem;
+}
+
+
+.senior_coment_txt {
+  width: 39%;
+}
+
+.senior_img {
+  width: 30rem;
+  height: 30rem;
+  margin-right: 11rem;
+}
+
+.senior_img p {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+
+
+.senior_img img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 7rem;
+}
+
+.senior_coment_txt p {
+  line-height: 2;
+  margin-top: 5rem;
+}
+
+.senior_coment2 {
+  flex-flow: row-reverse;
+}
+
+.reverse_img {
+  margin-right: 0;
+  margin-left: 11rem
+}
+
+/* ---apprication guideline------------------ */
+
+.apprication_guidelins {
+  background-color: #55c6ba;
+  padding: 7.5rem 0;
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 13rem;
+}
+
+.apprication_guidelins_inner {
+  background-color: #fff;
+}
+
+table {
+  width: 81%;
+  margin: 0 auto;
+  font-size: 2.5rem;
+  font-weight: bold;
+  border: 1px solid #333;
+  background-color: #fff;
+}
+
+tr {
+  border: 1px solid #333;
+}
+
+td:last-child {
+  padding-bottom: 5.3rem;
+}
+
+th {
+padding: 3.6rem;
+width: 25%;
+border: 1px solid #333;
+}
+
+td {
+  width: 75%;
+  padding-left: 11rem;
+}
+
+
+
+
+
+
+
+
+

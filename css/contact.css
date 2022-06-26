@@ -1,0 +1,76 @@
+
+.contact {
+  padding-top: 13rem;
+  margin-bottom: 6.5rem;
+  margin-top: 7rem;
+}
+
+form {
+  padding: 10.6rem ;
+  background-color:  #ebf4f6; 
+  font-size: 2rem;
+}
+
+.contact_form {
+  /* width: 80%; */
+  width: 80%;
+  margin: auto;
+}
+
+.contact_form table, .contact_form .submit_btn {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 2rem;
+}
+
+
+  /* --th,tdの横幅をきめる */
+  .contact_form th {
+    text-align: center;
+    width: 25%;
+  }
+
+  .contact_form td {
+    width: 80%;
+    height: 5rem;
+  }
+
+  /* 入力欄ボタンサイズ */
+.contact_form textarea {
+  width:100%;
+  height: 30rem;
+  border: none;
+}
+
+.contact_form label {
+  display: block;
+}
+
+/* 行間をあける */
+.contact_form th {
+  padding: 2rem 0;
+  vertical-align: top;
+  /* border: 1px solid #333; */
+  background-color: #fff;
+}
+
+
+ 
+input {
+  width: 100%;
+  height: 95%;
+  border: none;
+}
+
+.btn {
+  font-size: 2.5rem;
+  font-weight: bold;
+  background-color:coral;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  width: 25rem;
+  padding: 2rem 0;
+  border-radius: 5rem;
+  margin-bottom: 6.5rem;
+}

@@ -1,0 +1,272 @@
+@charset "utf-8";
+
+
+
+
+
+
+
+
+
+.index_top_mainvisual {
+  background-image: url(../image/建築1.png);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 13rem;
+}
+
+.index_top_title {
+  
+  position: absolute;
+  bottom: 19%;
+  color: #fff;
+  background-color: rgba(217, 217, 217, 0.5);
+  padding: 5.5rem 0;
+  width: 100%;
+  text-align: center;
+}
+
+.index_top_title h1 {
+  display: inline-block;
+  text-align: left;
+  font-size: clamp(3rem,4vw,6rem);
+}
+
+/* ---company-about----------------------------------- */
+
+.company_about {
+  position: relative;
+  width: 76%;
+  margin: 0 auto;
+  margin-bottom: 13rem;
+}
+
+.section_title {
+margin-bottom: 13rem;
+}
+
+/* ---grid--------------------------- */
+
+
+
+.company_about_img {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.company_about_img_item1 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  object-fit: cover;
+}
+
+.company_about_img_item2 {
+  width: 100%;
+  height: 100%;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  object-fit: cover;
+}
+
+.company_about_img_item3 {
+  width: 100%;
+  height: 100%;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  object-fit: cover;
+}
+
+
+.company_about_inner {
+  display: flex;
+}
+
+.company_about_txt1 {
+  line-height: 1.5;
+  margin-left: 3rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.company_about_txt1 h2 {
+  font-size: clamp(1.6rem,2vw,2.8rem);
+  margin-bottom: 7rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.company_ul {
+  margin-bottom: 8.2rem;
+  padding: 2.8rem;
+  border: 2px solid #f6955d;
+}
+
+.company_ul_ol {
+  font-size: clamp(1.6rem,2vw,2.5rem);
+  margin-bottom: 4.7rem;
+  margin-left: 3rem;
+  list-style-type: inherit;
+  
+}
+
+.company_ul_ol:nth-child(3) {
+  margin-bottom: 0;
+}
+
+.shadow_box {
+  position: absolute;
+  left: 5%;
+  bottom: -2%;
+  width: 91%;
+  height: 32%;
+  margin: 0 auto;
+  background-color: rgba(217, 217, 217, 0.3);
+}
+
+
+
+.btn a {
+  position: absolute;
+  bottom: -5.5%;
+  right: 38%;
+  width: 25rem;
+
+  width: 25rem;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #f6955d;
+  border-radius: 5rem;
+  font-size: clamp(1.6rem,2vw,2.5rem);
+  font-weight: bold;
+  color: #333;
+}
+/* ---works------------------------------------ */
+
+.works {
+  width: 76%;
+  margin: 0 auto;
+  margin-top: 16.5rem;
+  margin-bottom: 13rem;
+}
+
+.section_title {
+  margin-bottom: 13rem;
+}
+
+.works_img {
+  display: flex;
+  /* height: 30rem;
+  width: ; */
+justify-content: center;
+margin-bottom: 13rem;
+}
+
+.works_img_item {
+  width: 30rem;
+  height: 30rem;
+  margin-left: 8rem
+}
+
+.works_img_item:nth-child(1) {
+  margin-left: 0;
+}
+
+.works_img_item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.more_btn {
+  text-align: center;
+}
+.more_btn a {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 2rem 0;
+  color: #333;
+  display: block;
+  width: 25rem;
+  border-radius: 5rem;
+  margin: 0 auto;
+  background-color: #f6955d;
+}
+
+/* ---recruit-------------------------------- */
+  .recruit {
+    margin-bottom: 13rem;
+}
+
+.section_title {
+  margin-bottom: 13rem;
+}
+
+.recruit_item {
+  width: 35rem;
+  height: 35rem;
+
+}
+
+  .recruit_img {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin-bottom: 3rem;
+  }
+
+
+  .recruit_item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    
+  }
+
+  .recruit_txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .recruit_txt h3 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 5.4rem;
+  }
+
+  .recruit p {
+    font-size: 2.5rem;
+    margin-bottom: 7rem;
+  }
+
+  .recruit_inner {
+    position: relative;
+
+  }
+
+.recruit_shadowbox {
+  position: absolute;
+  left: 15%;
+  bottom: 5%;
+  width: 70%;
+  height: 70%;
+  z-index: -1;
+  background-color: rgba(217, 217, 217, 0.3) ;
+}
+
+/* --contact-------------------------------- */
+
+
